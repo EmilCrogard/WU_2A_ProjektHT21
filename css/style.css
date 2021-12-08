@@ -5,17 +5,43 @@
 }
 
 .header {
-    height: 100px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    grid-area: he;
 }
 
-.gridwrapper{
+#gridwrapper{
 background-image: url(/IMG/Resturang-bakgrund.jpg);
 background-position: center;
 background-size: 100%;
+grid-template-areas: 
+    "he he he"
+    "di di di"
+    "fo fo fo"
+;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 80px minmax(300px, 1fr) 40px;
+height: 100vh;
+width: 100vw;
+
 }
+
+.flex_div {
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-area: di;
+}
+
+
+.main_article{
+    background-color: gray;
+    height: 160px;
+    width: 160px;
+}
+
 
 .link_list{
 list-style: none;
@@ -48,3 +74,46 @@ width: 600px;
 }
 
 
+.footer{
+    grid-area: fo;
+    background-color: gray;
+}
+
+/* meny */
+
+#meny_body{
+    background-color: rgb(0, 0, 0);
+}
+.gridwrapper-option{
+    background-color:gray;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    
+    "ai ai a1 a1"
+    "ai ai a2 a2"
+    "ai ai a3 a3"
+    ; 
+    
+    grid-template-columns:4, 1fr ;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+}
+
+.article_img{
+    grid-area: ai;
+    background-color: wheat;
+}
+
+.article1{
+    grid-area: a1;
+    background-color: tomato;
+}
+.article2{
+grid-area: a2;
+background-color: turquoise;
+}
+.article3{
+grid-area: a3;
+background-color: yellow;
+}

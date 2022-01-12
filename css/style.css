@@ -14,7 +14,7 @@
 }
 
 .background{
-background-image: url(/IMG/Resturang-optional-bakgrund.jpg);
+background-image: url(../img/Resturang-bakgrund.jpg);
 background-position: center;
 background-size: 100%;
 height: 78vh;
@@ -28,11 +28,11 @@ height: 78vh;
 }
 
 .logo{
-    background-image: url(/IMG/andra-forsok-ps.png);
+    background-image: url(../img/ps_logga.png);
     background-position:center;
     background-size: 100%;
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 270px;
 }
 
 
@@ -56,9 +56,9 @@ width: 600px;
 .link_button{
     text-decoration: none;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .link_button:hover{
@@ -78,7 +78,7 @@ width: 600px;
     color: rgb(121, 116, 104);
 }
 
-.h1_text{
+.rubrik_text{
     font-size: 1.5rem;
     font-family: sans-serif;
     color: rgb(95, 90, 78);
@@ -136,12 +136,12 @@ width: 600px;
 
 #img_article1{
 grid-area: img1;
-background: url(/img/grasshopper.jpg);
+background: url(../img/grasshopper.jpg);
 background-size: 100%;
 }
 #img_article2{
 grid-area: img2;
-background: url(/img/En_god_framtid.jpg);
+background: url(../img/En_god_framtid.jpg);
 background-size: 100%;
 }
 
@@ -181,26 +181,26 @@ padding: 2rem;
 
 #img1_meny{
 grid-area: im1;
-background: url(/img/Insekts-korv.jpg);
+background: url(../img/Insekts-korv.jpg);
 background-size: 100%;
 background-position: center;
 
 }
 #img2_meny{
 grid-area: im2;
-background: url(/img/insekts-bullar.jpg);
+background: url(../img/insekts-bullar.jpg);
 background-size: 100%;
 background-position: center;
 }
 #img3_meny{
 grid-area: im3;
-background: url(/img/Insekts-burgare_liggandes.jpg);
+background: url(../img/Insekts-burgare_liggandes.jpg);
 background-size: 100%;
 background-position: center;
 }
 #img4_meny{
 grid-area: im4;
-background: url(/img/Insekts-rulle.jpg);
+background: url(../img/Insekts-rulle.jpg);
 background-size: 100%;
 background-position: center; 
 }
